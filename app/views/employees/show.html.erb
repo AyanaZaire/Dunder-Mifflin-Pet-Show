@@ -1,0 +1,10 @@
+<h3><%= @employee.full_name %></h3>
+
+<img src=<%= @employee.img_url%> alt="">
+
+<%= image_tag(@employee.img_url) %>
+
+<p>Alias: <%= @employee.alias %></p>
+<p>Title: <%= @employee.title %></p>
+<p>Office: <%= @employee.office %></p>
+<p>Dog: <%= @employee.dog.name %></p>
